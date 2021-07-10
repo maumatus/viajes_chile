@@ -1,0 +1,225 @@
+/*Smoth scroll base como regla*/
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #1111;
+}
+
+/*Aqui va el contenedor de Hero*/
+.container-fluid { 
+    padding: 0px;
+  }
+
+/*Reglas de navbar*/
+
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+/*Reglas de titulo acerca nosotros*/
+
+#acerca_nosotros {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem; 
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Reglas de acerca nosotros cuerpo*/
+
+.separador-quienes-somos {
+    margin-top: 1rem;
+    width: 90%;
+    border: 1px solid;
+    color: #17a3b8;
+}
+
+#cuerpo-acerca-nosotros {
+    background-color: rgb(0, 0, 0);
+}
+
+.izq {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    text-align: justify; 
+}
+
+.medio {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    text-align: justify;  
+}
+
+.der {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    text-align: justify; 
+}
+
+.card {
+    border: none;
+}
+
+.card-header{
+    background-color: #17a3b8;
+}
+
+.card-body {
+    background-color:rgb(1, 1, 1);
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    text-align: justify;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.card-header {
+    height: 3rem;
+}
+
+.icon{
+    size: 2rem;
+}
+
+.icon:hover{
+    size: 2rem;
+    color: rgb(243, 17, 130);
+    background-color: rgb(247, 222, 85);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem; 
+}
+
+i {
+    color: #ffffff;
+}
+
+/*Sección destacados*/
+
+.separador-destacados {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    border: 1px solid;
+    color: #17a3b8;
+}
+
+#destacados {
+    margin-top: 0rem;
+    margin-bottom: -2rem;
+    padding-top: 4rem; 
+}
+#cuerpo-destacados {
+    
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: #1111 important!;
+}
+
+.card-body-2 {
+    color: #ffffff;
+    background-color: #17a3b8;
+}
+
+.card-body-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    border: #ffffff;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/*Contacto*/
+
+#contacto {
+    padding-top: 6rem;
+}  
+
+.separador-contacto {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    width: 90%;
+    border: 1px solid;
+    color: #17a3b8;
+}
+
+#cuerpo-contacto {
+    padding-top: 2rem;
+    height: 25%;
+    padding-bottom: 2rem;
+}
+
+#footer {
+    padding-bottom: 0.5rem;
+}
+
+/*Ajuste tamaño para media especifica*/
+/* Se uso Flexbox porque Bootstrap es limitado en la implementacion sobre este modulo de CSS*/
+
+@media only screen and (max-width:480px) {
+    #acerca_nosotros {
+        display: none;
+    }
+    #cuerpo-acerca-nosotros{
+        display: none;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10rem;
+    }
+    .card {
+        margin-bottom: 2rem;
+    }
+
+  }
+
+  
+ 
+
